@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo ${{ secrets.INFRA_USER_NAME }} | wc -c
+        run: echo ${{ secrets.TEST_SECRET }} | wc -c
 
